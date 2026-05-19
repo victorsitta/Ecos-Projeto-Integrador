@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🌿 EcoNexus (Eco'S)
+# 🌿 Eco'S Ecoando Sustentabilidade
 **O Futuro da Sustentabilidade Gamificada**
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
