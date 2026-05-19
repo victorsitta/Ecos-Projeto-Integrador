@@ -1,123 +1,141 @@
 <div align="center">
-
+  
 # 🌿 EcoNexus (Eco'S)
+**O Futuro da Sustentabilidade Gamificada**
 
-### Plataforma interativa e gamificada para sustentabilidade, educação ambiental e participação comunitária.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)](https://supabase.com/)
 
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=fff)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=fff)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=000)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=fff)
-![GitHub](https://img.shields.io/badge/GitHub-README-181717?style=for-the-badge&logo=github&logoColor=fff)
+Um ecossistema interativo que recompensa você por cuidar do planeta. Compartilhe o bem, engaje com a natureza e torne-se uma lenda viva da Terra. 🌎✨
+
+[Explorar o Projeto](#-funcionalidades) · [Reportar Bug](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues) · [Solicitar Feature](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues)
 
 </div>
 
 ---
 
-## 📖 Sumário
+## 📖 Índice
 
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Objetivo](#-objetivo)
+- [Sobre o Projeto](#-sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
-- [Sistema de gamificação](#-sistema-de-gamificação)
-- [Tecnologias utilizadas](#️-tecnologias-utilizadas)
-- [Arquitetura geral](#-arquitetura-geral)
-- [Como executar o projeto](#️-como-executar-o-projeto-localmente)
-- [Configuração do Supabase](#-configuração-do-supabase)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Contribuição](#-contribuindo)
-- [Projeto Integrador](#-projeto-integrador)
+- [Sistema de Gamificação](#-sistema-de-gamificação)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Começar (Instalação)](#-como-começar)
+- [Como Contribuir](#-como-contribuir)
+- [Licença](#-licença)
 
 ---
 
-## 📌 Sobre o projeto
+## 🌍 Sobre o Projeto
 
-**EcoNexus**, também chamado de **Eco'S**, é uma plataforma web interativa, moderna e gamificada voltada para sustentabilidade, conscientização ambiental e colaboração social.
-
-O projeto foi desenvolvido com o objetivo de transformar a participação ambiental em uma experiência mais acessível, dinâmica e motivadora. Para isso, a plataforma utiliza recursos de gamificação, como **XP**, **níveis**, **ranks** e a moeda virtual **EcoS**, incentivando os usuários a interagirem com conteúdos, realizarem denúncias ambientais e participarem de desafios educativos.
-
-Dentro da plataforma, o usuário pode acompanhar seu progresso, compartilhar notícias ambientais, reagir a publicações, comentar conteúdos, reportar incidentes ambientais, conversar com um chatbot sustentável e participar de minigames educativos.
-
-Mais do que uma aplicação web, o **EcoNexus** propõe uma experiência de engajamento ecológico, unindo tecnologia, educação e participação comunitária.
-
----
-
-## 🎯 Objetivo
-
-O principal objetivo do **EcoNexus** é incentivar atitudes sustentáveis por meio da tecnologia.
-
-A plataforma busca:
-
-- Promover a conscientização ambiental
-- Estimular a participação da comunidade
-- Incentivar boas práticas ecológicas
-- Facilitar o compartilhamento de notícias ambientais
-- Permitir o registro de incidentes ambientais
-- Ensinar sustentabilidade de forma interativa
-- Recompensar usuários por ações positivas
-- Criar uma jornada gamificada de aprendizado e colaboração
+O **EcoNexus** (ou *Eco'S*) é mais do que um simples projeto: é uma plataforma social voltada inteiramente para o meio ambiente. Através de um design moderno (Dark Mode com tons de verde e azul neon) e uma experiência gamificada, nosso objetivo é engajar usuários em ações ecológicas. Seja lendo notícias sustentáveis, relatando incidentes que agridem o meio ambiente ou aprendendo através de mini-desafios, aqui você é recompensado por fazer a sua parte.
 
 ---
 
 ## 🚀 Funcionalidades
 
-### 📊 Dashboard gamificado
+> Uma plataforma rica e desenhada para o máximo de interação e performance.
 
-O dashboard é a área principal do usuário dentro da plataforma.
-
-Nele, o usuário pode acompanhar sua evolução, progresso e desempenho dentro do sistema.
-
-Principais recursos:
-
-- Visualização do perfil do usuário
-- Exibição de XP acumulado
-- Controle de nível atual
-- Exibição da moeda virtual EcoS
-- Rank de evolução ambiental
-- Indicadores de progresso
-- Interface visual moderna e interativa
-
-Exemplos de ranks:
-
-| Rank | Representação |
-|---|---|
-| Semente Curiosa | 🌱 |
-| Guardião Verde | 🌿 |
-| Protetor da Natureza | 🌳 |
-| Herói Sustentável | ♻️ |
-| Lenda Viva da Terra | 🌍✨ |
+- 📊 **Dashboard Pessoal**: Seu centro de comando. Acompanhe sua carteira de `EcoS` (moeda virtual), nível atual, progresso para o próximo rank e missões ativas.
+- 📰 **Eco'S FEED+**: Uma timeline interativa com notícias do mundo verde. Ganhe conhecimento e engaje (curta, ame ou envie ideias nos posts).
+- 🚨 **Patrulha Ativa**: Encontrou lixo descartado irregularmente? Um foco de queimada? Tire uma foto e poste as evidências em tempo real com localização.
+- 🤖 **Chatbot Inteligente**: Um assistente virtual ecológico (IA) para tirar todas as suas dúvidas sobre reciclagem e sustentabilidade diária.
+- 🎮 **Arena de Desafios**: Um espaço com minigames e quizzes educacionais focados na vida na Terra.
+- 🎯 **Eventos e Missões Sazonais**: Ganhe *Boosts* de XP ao concluir desafios práticos temporários.
 
 ---
 
-### 📰 Eco'S Feed+
+## 🎮 Sistema de Gamificação
 
-O **Eco'S Feed+** é a área de notícias e publicações ambientais da plataforma.
+Para manter a comunidade ativa, implementamos recompensas diretas:
 
-Nesse espaço, os usuários podem ler, compartilhar e interagir com conteúdos relacionados à sustentabilidade e ao meio ambiente.
+| Recompensa | Como Funciona |
+| :--- | :--- |
+| 🟢 **EcoS** | A moeda do sistema. Você a adquire engajando-se na plataforma e pode gastá-la para publicar suas próprias notícias (-50 EcoS). |
+| ⚡ **XP (Experiência)** | Ganha ao completar missões. Serve para você subir de nível de forma vitalícia. |
+| 🏆 **Sistema de Ranks** | Seu status reflete sua jornada. Comece como `Semente Curiosa 🌱` e evolua até se tornar uma `Lenda Viva da Terra 🌍✨`. |
 
-Temas abordados:
+---
 
-- Meio ambiente
-- Sustentabilidade
-- Energia limpa
-- Mudanças climáticas
-- Preservação ambiental
-- Inovação ecológica
-- Ações sociais e ambientais
-- Tecnologias verdes
+## 🛠️ Tecnologias Utilizadas
 
-Recursos disponíveis:
+A stack foi cuidadosamente escolhida para fornecer uma interface **Premium**, responsiva e veloz:
 
-- Publicação de notícias
-- Listagem de conteúdos
-- Reações nas publicações
-- Comentários
-- Interação entre usuários
-- Consumo de EcoS ao publicar uma notícia
+### Front-end
+- **[React 18](https://react.dev/)** + **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática e componentização moderna.
+- **[Vite](https://vitejs.dev/)**: Para um ambiente de desenvolvimento ultra rápido.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Construção de um design system complexo e responsivo via classes utilitárias.
+- **[Framer Motion](https://www.framer.com/motion/)**: Micro-interações, efeitos de hover avançados e animações de transição de páginas.
+- **[Shadcn/UI](https://ui.shadcn.com/)** & **Radix UI**: Componentes robustos e acessíveis de alta qualidade.
+- **[Lucide React](https://lucide.dev/)**: Ícones minimalistas e elegantes.
 
-Exemplo de regra:
+### Back-end & Infraestrutura
+- **[Supabase](https://supabase.com/)**: O coração dos dados e autenticação.
+  - Banco de Dados (PostgreSQL) robusto e em tempo real.
+  - Storage para hospedagem de fotos da Patrulha Ativa e imagens de Notícias.
 
-```txt
-Publicar uma nova notícia: -50 EcoS
+---
+
+## ⚙️ Como Começar
+
+Siga os passos abaixo para rodar o projeto localmente em sua máquina.
+
+### Pré-requisitos
+* Node.js (v18.x ou superior)
+* npm, yarn ou bun
+
+### Instalação
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/seu-usuario/Ecos-Projeto-Integrador.git
+   ```
+2. Entre no diretório
+   ```sh
+   cd Ecos-Projeto-Integrador
+   ```
+3. Instale os pacotes necessários
+   ```sh
+   npm install
+   ```
+4. **Variáveis de Ambiente**: Crie um arquivo `.env` na raiz e preencha com as suas credenciais do Supabase:
+   ```env
+   VITE_SUPABASE_URL=https://sua-url-aqui.supabase.co
+   VITE_SUPABASE_ANON_KEY=sua-anon-key-aqui
+   ```
+   *(Nota: O projeto exige as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments`, `reports`)*
+
+5. Rode a aplicação
+   ```sh
+   npm run dev
+   ```
+
+6. Abra [http://localhost:5173](http://localhost:5173) no seu navegador.
+
+---
+
+## 🤝 Como Contribuir
+
+Toda e qualquer ajuda é fundamental para evoluirmos este ecossistema! 
+
+1. Faça um **Fork** do projeto
+2. Crie uma **Branch** para sua Feature (`git checkout -b feature/NovaFeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Faça o **Commit** (`git commit -m 'feat: adicionando NovaFeatureIncrivel'`)
+5. Faça o **Push** para a branch (`git push origin feature/NovaFeatureIncrivel`)
+6. Abra um **Pull Request**
+
+---
+
+## 📝 Licença
+
+Este projeto é desenvolvido para fins educacionais (Projeto Integrador). Licença MIT aplicável para contribuições open-source.
+
+---
+<div align="center">
+  <br />
+  <p>Feito com 💚 pela equipe do Projeto Integrador para um mundo mais sustentável.</p>
+</div>
