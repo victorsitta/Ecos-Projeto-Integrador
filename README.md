@@ -1,141 +1,137 @@
 <div align="center">
+  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" alt="EcoNexus Banner" width="100%" style="border-radius: 15px; margin-bottom: 20px;" />
+
+  # 🌿 EcoNexus (Eco'S)
   
-# 🌿Eco'S (Ecoando Sustentabilidade)
-**O Futuro da Sustentabilidade Gamificada**
+  **A Plataforma Social Gamificada para um Planeta mais Verde**
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)](https://supabase.com/)
+  <p align="center">
+    <a href="#-features">Funcionalidades</a> • 
+    <a href="#-gamificação">Gamificação</a> • 
+    <a href="#-tecnologias">Tech Stack</a> • 
+    <a href="#-instalação">Instalação</a>
+  </p>
 
-Um ecossistema interativo que recompensa você por cuidar do planeta. Compartilhe o bem, engaje com a natureza e torne-se uma lenda viva da Terra. 🌎✨
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-10b981?style=flat-square&logo=github" alt="Status" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=opensourceinitiative" alt="License" />
+  <img src="https://img.shields.io/badge/Versão-1.0.0-f59e0b?style=flat-square" alt="Version" />
+</div>
 
-[Explorar o Projeto](#-funcionalidades) · [Reportar Bug](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues) · [Solicitar Feature](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues)
+<br />
 
+> **EcoNexus** transforma a sustentabilidade em uma jornada imersiva. Relate incidentes ambientais, consuma notícias focadas no clima, suba de nível e ajude a comunidade sendo recompensado na *Patrulha Ativa*.
+
+---
+
+<h2 id="-features">✨ Interface & Funcionalidades</h2>
+
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+      <h3>📊 Dashboard de Guardião</h3>
+      Acompanhe sua carteira de <b>EcoS</b> (nossa moeda verde), veja sua barra de <b>XP</b> subir e conquiste Ranks. Um perfil dinâmico que recompensa suas ações reais e virtuais com micro-interações belíssimas.
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+      <h3>📰 Eco'S FEED+</h3>
+      Um feed interativo (estilo rede social premium). Ao invés de apenas consumir, você <b>investe</b>. Gastando seus <i>EcoS</i>, você publica notícias sustentáveis, recebendo <i>Likes</i>, <i>Corações</i> e <i>Ideias</i>.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+      <h3>🚨 Patrulha Ativa</h3>
+      Presenciou um crime ambiental ou um foco de queimada? Use nosso <b>monitoramento em tempo real</b>. Envie evidências fotográficas com geolocalização e ative a comunidade instantaneamente.
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+      <h3>🤖 Chatbot & Arena</h3>
+      Dúvidas sobre reciclagem? Nossa <b>IA assistente</b> te responde. Quer competir? Entre na <b>Arena de Desafios</b> e acumule pontos em minigames educativos voltados para a preservação do planeta.
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 id="-gamificação">🎮 O Motor Gamificado</h2>
+
+Acreditamos que mudar o mundo pode (e deve) ser viciante e divertido. Nossa economia interna funciona assim:
+
+<div align="center">
+  
+| Elemento | Ícone | Descrição Técnica & Utilidade |
+| :---: | :---: | :--- |
+| **EcoS** | 🟢 | A cripto-moeda virtual da plataforma. Taxa de transação para publicações globais custa `-50 EcoS`. |
+| **Experiência** | ⚡ | **XP** adquirido ao cumprir *Missões Sazonais* (ex: "Engajar o feed rende +100XP"). |
+| **Ranks** | 🏆 | Escalonamento de perfil. Vai do *Nível 1 (Semente Curiosa 🌱)* ao *Nível 50+ (Lenda Viva da Terra 🌍✨)*. |
+
+</div>
+
+#### Mockup de Progresso da Interface
+```text
+Semente Curiosa 🌱   [████████░░░░░░░░░░░░]   450 / 1000 XP
+```
+
+---
+
+<h2 id="-tecnologias">💻 Tech Stack Premium</h2>
+
+Toda a fundação foi construída para entregar uma interface impecável: **Dark Mode nativo**, **Glassmorphism**, animações fluidas e feedback em tempo real.
+
+<div align="center">
+
+| Core & Framework | UI & Estilização | Autenticação & Nuvem |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=react,ts,vite" /><br><b>React 18 + TS + Vite</b> | <img src="https://skillicons.dev/icons?i=tailwind" /><br><b>Tailwind + Framer Motion</b> | <img src="https://skillicons.dev/icons?i=supabase,postgres" /><br><b>Supabase + PostgreSQL</b> |
+
+*(Design System potenciado por **shadcn/ui** e ícones por **Lucide React**)*
 </div>
 
 ---
 
-## 📖 Índice
+<h2 id="-instalação">🚀 Inicialização Rápida</h2>
 
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Sistema de Gamificação](#-sistema-de-gamificação)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como Começar (Instalação)](#-como-começar)
-- [Como Contribuir](#-como-contribuir)
-- [Licença](#-licença)
+Quer testar a aplicação no seu ambiente e sentir a interface na prática?
 
----
+<details>
+<summary><b>🔥 Clique aqui para abrir as instruções detalhadas</b></summary>
+<br>
 
-## 🌍 Sobre o Projeto
+**1. Clone o repositório**
+```bash
+git clone https://github.com/seu-usuario/Ecos-Projeto-Integrador.git
+cd Ecos-Projeto-Integrador
+```
 
-O **EcoNexus** (ou *Eco'S*) é mais do que um simples projeto: é uma plataforma social voltada inteiramente para o meio ambiente. Através de um design moderno (Dark Mode com tons de verde e azul neon) e uma experiência gamificada, nosso objetivo é engajar usuários em ações ecológicas. Seja lendo notícias sustentáveis, relatando incidentes que agridem o meio ambiente ou aprendendo através de mini-desafios, aqui você é recompensado por fazer a sua parte.
+**2. Instale as dependências via NPM**
+```bash
+npm install
+```
 
----
+**3. Configure o Banco de Dados (Supabase)**
+Crie um arquivo `.env` na raiz do seu projeto com as suas credenciais:
+```env
+VITE_SUPABASE_URL="sua_url_aqui"
+VITE_SUPABASE_ANON_KEY="sua_key_aqui"
+```
+> **⚠️ Importante:** O funcionamento depende das tabelas no backend: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments` e `reports`.
 
-## 🚀 Funcionalidades
+**4. Dê o play no servidor de desenvolvimento**
+```bash
+npm run dev
+```
+Acesse: [http://localhost:5173](http://localhost:5173) no seu navegador.
 
-> Uma plataforma rica e desenhada para o máximo de interação e performance.
-
-- 📊 **Dashboard Pessoal**: Seu centro de comando. Acompanhe sua carteira de `EcoS` (moeda virtual), nível atual, progresso para o próximo rank e missões ativas.
-- 📰 **Eco'S FEED+**: Uma timeline interativa com notícias do mundo verde. Ganhe conhecimento e engaje (curta, ame ou envie ideias nos posts).
-- 🚨 **Patrulha Ativa**: Encontrou lixo descartado irregularmente? Um foco de queimada? Tire uma foto e poste as evidências em tempo real com localização.
-- 🤖 **Chatbot Inteligente**: Um assistente virtual ecológico (IA) para tirar todas as suas dúvidas sobre reciclagem e sustentabilidade diária.
-- 🎮 **Arena de Desafios**: Um espaço com minigames e quizzes educacionais focados na vida na Terra.
-- 🎯 **Eventos e Missões Sazonais**: Ganhe *Boosts* de XP ao concluir desafios práticos temporários.
-
----
-
-## 🎮 Sistema de Gamificação
-
-Para manter a comunidade ativa, implementamos recompensas diretas:
-
-| Recompensa | Como Funciona |
-| :--- | :--- |
-| 🟢 **EcoS** | A moeda do sistema. Você a adquire engajando-se na plataforma e pode gastá-la para publicar suas próprias notícias (-50 EcoS). |
-| ⚡ **XP (Experiência)** | Ganha ao completar missões. Serve para você subir de nível de forma vitalícia. |
-| 🏆 **Sistema de Ranks** | Seu status reflete sua jornada. Comece como `Semente Curiosa 🌱` e evolua até se tornar uma `Lenda Viva da Terra 🌍✨`. |
+</details>
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-A stack foi cuidadosamente escolhida para fornecer uma interface **Premium**, responsiva e veloz:
-
-### Front-end
-- **[React 18](https://react.dev/)** + **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática e componentização moderna.
-- **[Vite](https://vitejs.dev/)**: Para um ambiente de desenvolvimento ultra rápido.
-- **[Tailwind CSS](https://tailwindcss.com/)**: Construção de um design system complexo e responsivo via classes utilitárias.
-- **[Framer Motion](https://www.framer.com/motion/)**: Micro-interações, efeitos de hover avançados e animações de transição de páginas.
-- **[Shadcn/UI](https://ui.shadcn.com/)** & **Radix UI**: Componentes robustos e acessíveis de alta qualidade.
-- **[Lucide React](https://lucide.dev/)**: Ícones minimalistas e elegantes.
-
-### Back-end & Infraestrutura
-- **[Supabase](https://supabase.com/)**: O coração dos dados e autenticação.
-  - Banco de Dados (PostgreSQL) robusto e em tempo real.
-  - Storage para hospedagem de fotos da Patrulha Ativa e imagens de Notícias.
-
----
-
-## ⚙️ Como Começar
-
-Siga os passos abaixo para rodar o projeto localmente em sua máquina.
-
-### Pré-requisitos
-* Node.js (v18.x ou superior)
-* npm, yarn ou bun
-
-### Instalação
-
-1. Clone o repositório
-   ```sh
-   git clone https://github.com/seu-usuario/Ecos-Projeto-Integrador.git
-   ```
-2. Entre no diretório
-   ```sh
-   cd Ecos-Projeto-Integrador
-   ```
-3. Instale os pacotes necessários
-   ```sh
-   npm install
-   ```
-4. **Variáveis de Ambiente**: Crie um arquivo `.env` na raiz e preencha com as suas credenciais do Supabase:
-   ```env
-   VITE_SUPABASE_URL=https://sua-url-aqui.supabase.co
-   VITE_SUPABASE_ANON_KEY=sua-anon-key-aqui
-   ```
-   *(Nota: O projeto exige as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments`, `reports`)*
-
-5. Rode a aplicação
-   ```sh
-   npm run dev
-   ```
-
-6. Abra [http://localhost:5173](http://localhost:5173) no seu navegador.
-
----
-
-## 🤝 Como Contribuir
-
-Toda e qualquer ajuda é fundamental para evoluirmos este ecossistema! 
-
-1. Faça um **Fork** do projeto
-2. Crie uma **Branch** para sua Feature (`git checkout -b feature/NovaFeatureIncrivel`)
-3. Adicione suas mudanças (`git add .`)
-4. Faça o **Commit** (`git commit -m 'feat: adicionando NovaFeatureIncrivel'`)
-5. Faça o **Push** para a branch (`git push origin feature/NovaFeatureIncrivel`)
-6. Abra um **Pull Request**
-
----
-
-## 📝 Licença
-
-Este projeto é desenvolvido para fins educacionais (Projeto Integrador). Licença MIT aplicável para contribuições open-source.
-
----
 <div align="center">
-  <br />
-  <p>Feito com 💚 pela equipe do Projeto Integrador para um mundo mais sustentável.</p>
+  
+## 🤝 Junte-se à Revolução Verde
+
+Sinta-se à vontade para realizar um **Fork**, criar a sua branch de **Feature** e abrir um **Pull Request**. O mundo precisa do seu código!
+
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=footer" width="100%"/>
+
+*Projeto Integrador - 2026*
 </div>
