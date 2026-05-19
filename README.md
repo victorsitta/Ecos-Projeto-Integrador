@@ -1,29 +1,6 @@
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" alt="EcoNexus Banner" width="100%" style="border-radius: 15px; margin-bottom: 20px;" />
+# 🌿 EcoNexus (Eco'S) - Projeto Integrador
 
-  # 🌿 EcoNexus (Eco'S)
-  **Projeto Integrador - O Futuro da Sustentabilidade Gamificada**
-
-  <p align="center">
-    <a href="#-funcionalidades">Funcionalidades</a> • 
-    <a href="#-sistema-de-gamificação">Gamificação</a> • 
-    <a href="#️-tecnologias-utilizadas">Tech Stack</a> • 
-    <a href="#️-como-executar-o-projeto-localmente">Instalação</a>
-  </p>
-
-  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)](https://supabase.com/)
-
-</div>
-
-<br />
-
-> **EcoNexus** é uma plataforma interativa e gamificada focada em sustentabilidade e conscientização ambiental. O objetivo do projeto é engajar usuários através de um sistema de recompensas (EcoS e XP), permitindo que compartilhem notícias, reportem incidentes ambientais e aprendam sobre preservação de maneira divertida e colaborativa.
-
----
+**EcoNexus** é uma plataforma interativa e gamificada focada em sustentabilidade e conscientização ambiental. O objetivo do projeto é engajar usuários através de um sistema de recompensas (EcoS e XP), permitindo que compartilhem notícias, reportem incidentes ambientais e aprendam sobre preservação de maneira divertida e colaborativa.
 
 ## 🚀 Funcionalidades
 
@@ -33,19 +10,6 @@
 - 🤖 **Chatbot Sustentável**: Assistente virtual integrado (IA) para ajudar e tirar dúvidas sobre práticas ecológicas no dia a dia.
 - 🎮 **Arena de Desafios (Minigames)**: Seção de jogos educativos e desafios competitivos que recompensam o usuário com XP e EcoS.
 - 🎯 **Missões Sazonais**: Desafios contínuos, como engajar com publicações do feed, que incentivam a participação ativa na plataforma em troca de recompensas.
-
----
-
-## 🎮 Sistema de Gamificação
-
-A plataforma foi projetada para incentivar boas ações através de um sistema de evolução do usuário:
-
-| Recompensa | Como Funciona |
-| :--- | :--- |
-| 🟢 **EcoS** | Moeda virtual ganha ao realizar ações sustentáveis ou interagir na plataforma. Utilizada para ações premium, como publicar notícias (-50 EcoS). |
-| ⚡ **XP e Níveis** | A participação na comunidade rende XP. Ao acumular XP, o usuário sobe de nível e alcança novos ranks, destacando seu nível de "Guardião da Natureza". |
-
----
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -62,13 +26,17 @@ O projeto foi construído com foco em performance e interface premium, utilizand
 - **React Query** (Gerenciamento de cache e estado de requisições)
 - **Lucide React** (Biblioteca de ícones)
 
----
+## 🎮 Sistema de Gamificação
+
+A plataforma foi projetada para incentivar boas ações através de um sistema de evolução do usuário:
+- **EcoS**: Moeda virtual ganha ao realizar ações sustentáveis ou interagir na plataforma. Utilizada para ações premium, como publicar notícias (-50 EcoS).
+- **XP e Níveis**: A participação na comunidade rende XP. Ao acumular XP, o usuário sobe de nível e alcança novos ranks, destacando seu nível de "Guardião da Natureza" no dashboard.
 
 ## ⚙️ Como executar o projeto localmente
 
 ### Pré-requisitos
 - Node.js (versão 18 ou superior recomendada)
-- npm, yarn ou bun
+- npm ou yarn
 
 ### Passo a passo
 
@@ -85,6 +53,8 @@ cd Ecos-Projeto-Integrador
 3. **Instale as dependências**
 ```sh
 npm install
+# ou
+yarn install
 ```
 
 4. **Configuração de Variáveis de Ambiente**
@@ -93,16 +63,16 @@ Crie um arquivo `.env` na raiz do projeto contendo as chaves de conexão do **Su
 VITE_SUPABASE_URL=sua_url_do_supabase
 VITE_SUPABASE_ANON_KEY=sua_anon_key_do_supabase
 ```
-> *(Nota: Certifique-se de configurar as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments` e `reports`)*
+*(Nota: Certifique-se de configurar as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments` e `reports`)*
 
 5. **Inicie o servidor de desenvolvimento**
 ```sh
 npm run dev
+# ou
+yarn dev
 ```
 
-6. Acesse o sistema através do navegador na porta fornecida (geralmente `http://localhost:5173`).
-
----
+6. Acesse o sistema através do navegador na porta fornecida (geralmente `http://localhost:8080` ou `http://localhost:5173`).
 
 ## 🤝 Contribuindo
 
@@ -115,8 +85,4 @@ Contribuições são sempre bem-vindas! Para melhorar o projeto, siga os passos:
 5. Abra um Pull Request
 
 ---
-<div align="center">
-  <br />
-  <p>Feito com 💚 pela equipe do Projeto Integrador focando na sustentabilidade do nosso planeta.</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=footer" width="100%"/>
-</div>
+*Projeto Integrador - Desenvolvido com 💚 focando na sustentabilidade do nosso planeta.*
