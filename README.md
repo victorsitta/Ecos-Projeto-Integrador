@@ -2,25 +2,62 @@
 
 # 🌿 EcoNexus (Eco'S)
 
-### Plataforma interativa e gamificada para sustentabilidade, educação ambiental e colaboração comunitária.
+### Plataforma interativa e gamificada para sustentabilidade, educação ambiental e participação comunitária.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=fff)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=fff)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=000)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=fff)
+![GitHub](https://img.shields.io/badge/GitHub-README-181717?style=for-the-badge&logo=github&logoColor=fff)
 
 </div>
 
 ---
 
+## 📖 Sumário
+
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Objetivo](#-objetivo)
+- [Funcionalidades](#-funcionalidades)
+- [Sistema de gamificação](#-sistema-de-gamificação)
+- [Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [Arquitetura geral](#-arquitetura-geral)
+- [Como executar o projeto](#️-como-executar-o-projeto-localmente)
+- [Configuração do Supabase](#-configuração-do-supabase)
+- [Estrutura do projeto](#-estrutura-do-projeto)
+- [Contribuição](#-contribuindo)
+- [Projeto Integrador](#-projeto-integrador)
+
+---
+
 ## 📌 Sobre o projeto
 
-**EcoNexus**, também chamado de **Eco'S**, é uma plataforma digital voltada para sustentabilidade e conscientização ambiental.
+**EcoNexus**, também chamado de **Eco'S**, é uma plataforma web interativa, moderna e gamificada voltada para sustentabilidade, conscientização ambiental e colaboração social.
 
-O projeto combina recursos de comunidade, gamificação, denúncias ambientais, notícias, chatbot e desafios educativos para incentivar ações positivas em prol do meio ambiente.
+O projeto foi desenvolvido com o objetivo de transformar a participação ambiental em uma experiência mais acessível, dinâmica e motivadora. Para isso, a plataforma utiliza recursos de gamificação, como **XP**, **níveis**, **ranks** e a moeda virtual **EcoS**, incentivando os usuários a interagirem com conteúdos, realizarem denúncias ambientais e participarem de desafios educativos.
 
-A ideia central é transformar o aprendizado e a participação ecológica em uma experiência interativa, colaborativa e recompensadora, utilizando **EcoS**, **XP**, níveis e ranks para motivar os usuários.
+Dentro da plataforma, o usuário pode acompanhar seu progresso, compartilhar notícias ambientais, reagir a publicações, comentar conteúdos, reportar incidentes ambientais, conversar com um chatbot sustentável e participar de minigames educativos.
+
+Mais do que uma aplicação web, o **EcoNexus** propõe uma experiência de engajamento ecológico, unindo tecnologia, educação e participação comunitária.
+
+---
+
+## 🎯 Objetivo
+
+O principal objetivo do **EcoNexus** é incentivar atitudes sustentáveis por meio da tecnologia.
+
+A plataforma busca:
+
+- Promover a conscientização ambiental
+- Estimular a participação da comunidade
+- Incentivar boas práticas ecológicas
+- Facilitar o compartilhamento de notícias ambientais
+- Permitir o registro de incidentes ambientais
+- Ensinar sustentabilidade de forma interativa
+- Recompensar usuários por ações positivas
+- Criar uma jornada gamificada de aprendizado e colaboração
 
 ---
 
@@ -28,110 +65,59 @@ A ideia central é transformar o aprendizado e a participação ecológica em um
 
 ### 📊 Dashboard gamificado
 
-Perfil de usuário dinâmico com sistema de:
+O dashboard é a área principal do usuário dentro da plataforma.
 
-- Níveis
-- Experiência, ou XP
-- Moeda virtual EcoS
-- Ranks de evolução
+Nele, o usuário pode acompanhar sua evolução, progresso e desempenho dentro do sistema.
+
+Principais recursos:
+
+- Visualização do perfil do usuário
+- Exibição de XP acumulado
+- Controle de nível atual
+- Exibição da moeda virtual EcoS
+- Rank de evolução ambiental
+- Indicadores de progresso
+- Interface visual moderna e interativa
 
 Exemplos de ranks:
 
-- 🌱 Semente Curiosa
-- 🌿 Guardião Verde
-- 🌳 Protetor da Natureza
-- 🌍 Lenda Viva da Terra
+| Rank | Representação |
+|---|---|
+| Semente Curiosa | 🌱 |
+| Guardião Verde | 🌿 |
+| Protetor da Natureza | 🌳 |
+| Herói Sustentável | ♻️ |
+| Lenda Viva da Terra | 🌍✨ |
 
 ---
 
 ### 📰 Eco'S Feed+
 
-Feed de notícias ambientais onde os usuários podem ler, compartilhar e interagir com publicações sobre:
+O **Eco'S Feed+** é a área de notícias e publicações ambientais da plataforma.
+
+Nesse espaço, os usuários podem ler, compartilhar e interagir com conteúdos relacionados à sustentabilidade e ao meio ambiente.
+
+Temas abordados:
 
 - Meio ambiente
-- Energia limpa
-- Clima
 - Sustentabilidade
+- Energia limpa
+- Mudanças climáticas
+- Preservação ambiental
 - Inovação ecológica
+- Ações sociais e ambientais
+- Tecnologias verdes
 
 Recursos disponíveis:
 
 - Publicação de notícias
-- Curtidas e reações
+- Listagem de conteúdos
+- Reações nas publicações
 - Comentários
-- Sistema de custo em EcoS para publicar novas notícias
+- Interação entre usuários
+- Consumo de EcoS ao publicar uma notícia
 
----
-
-### 🚨 Patrulha Ativa
-
-Sistema de denúncias e monitoramento ambiental em tempo real.
-
-Os usuários podem reportar incidentes ambientais informando:
-
-- Foto ou evidência
-- Descrição do problema
-- Localização
-- Categoria da ocorrência
-
-Essa funcionalidade incentiva a participação cidadã e o cuidado com os espaços naturais e urbanos.
-
----
-
-### 🤖 Chatbot sustentável
-
-Assistente virtual com IA para ajudar os usuários com dúvidas sobre sustentabilidade e práticas ecológicas no dia a dia.
-
-O chatbot pode auxiliar com temas como:
-
-- Reciclagem
-- Economia de água
-- Energia limpa
-- Consumo consciente
-- Preservação ambiental
-
----
-
-### 🎮 Arena de desafios
-
-Área de minigames e desafios educativos voltados para aprendizado ambiental.
-
-Os usuários podem participar de atividades interativas e receber recompensas como:
-
-- XP
-- EcoS
-- Progresso em missões
-- Evolução no ranking
-
----
-
-### 🎯 Missões sazonais
-
-Sistema de missões contínuas que incentiva o engajamento dentro da plataforma.
-
-Exemplos de missões:
-
-- Interagir com publicações
-- Comentar no feed
-- Realizar denúncias ambientais
-- Participar de desafios
-- Acumular XP
-
----
-
-## 🎮 Sistema de gamificação
-
-A gamificação é uma das bases do EcoNexus.
-
-O usuário evolui conforme participa da comunidade, realiza ações sustentáveis e interage com os recursos da plataforma.
-
-### EcoS
-
-**EcoS** é a moeda virtual da plataforma.
-
-Ela pode ser conquistada por meio de ações e interações, e utilizada em recursos específicos, como a publicação de notícias no feed.
-
-Exemplo:
+Exemplo de regra:
 
 ```txt
-Publicar uma notícia: -50 EcoS
+Publicar uma nova notícia: -50 EcoS
