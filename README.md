@@ -1,88 +1,148 @@
-# 🌿 EcoNexus (Eco'S) - Projeto Integrador
+<div align="center">
+  
+# 🌿 EcoNexus (Eco'S)
+**O Futuro da Sustentabilidade Gamificada**
 
-**EcoNexus** é uma plataforma interativa e gamificada focada em sustentabilidade e conscientização ambiental. O objetivo do projeto é engajar usuários através de um sistema de recompensas (EcoS e XP), permitindo que compartilhem notícias, reportem incidentes ambientais e aprendam sobre preservação de maneira divertida e colaborativa.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)](https://supabase.com/)
+
+Um ecossistema interativo que recompensa você por cuidar do planeta. Compartilhe o bem, engaje com a natureza e torne-se uma lenda viva da Terra. 🌎✨
+
+[Explorar o Projeto](#-funcionalidades) · [Reportar Bug](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues) · [Solicitar Feature](https://github.com/seu-usuario/Ecos-Projeto-Integrador/issues)
+
+</div>
+
+---
+
+## 📖 Índice
+
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Sistema de Gamificação](#-sistema-de-gamificação)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Começar (Instalação)](#-como-começar)
+- [Como Contribuir](#-como-contribuir)
+- [Licença](#-licença)
+
+---
+
+## 🌍 Sobre o Projeto
+
+O **EcoNexus** (ou _Eco'S_) é mais do que um simples projeto: é uma plataforma social voltada inteiramente para o meio ambiente. Através de um design moderno (Dark Mode com tons de verde e azul neon) e uma experiência gamificada, nosso objetivo é engajar usuários em ações ecológicas. Seja lendo notícias sustentáveis, relatando incidentes que agridem o meio ambiente ou aprendendo através de mini-desafios, aqui você é recompensado por fazer a sua parte.
+
+---
 
 ## 🚀 Funcionalidades
 
-- 📊 **Dashboard Gamificado**: Perfil de usuário dinâmico com sistema de níveis, experiência (XP) e ranks (ex: *Semente Curiosa 🌱* até *Lenda Viva da Terra 🌍✨*).
-- 📰 **Eco'S FEED+ (Feed de Notícias)**: Espaço para leitura e compartilhamento de notícias sobre o meio ambiente, energia limpa, clima e inovação. Os usuários podem reagir (curtir, amar, ideia) e comentar. Publicar uma nova notícia consome *EcoS* (moeda virtual do sistema).
-- 🚨 **Patrulha Ativa (Denúncias)**: Sistema de monitoramento de incidentes em tempo real. Os usuários podem reportar problemas ambientais enviando fotos (evidências), descrição e localização.
-- 🤖 **Chatbot Sustentável**: Assistente virtual integrado (IA) para ajudar e tirar dúvidas sobre práticas ecológicas no dia a dia.
-- 🎮 **Arena de Desafios (Minigames)**: Seção de jogos educativos e desafios competitivos que recompensam o usuário com XP e EcoS.
-- 🎯 **Missões Sazonais**: Desafios contínuos, como engajar com publicações do feed, que incentivam a participação ativa na plataforma em troca de recompensas.
+> Uma plataforma rica e desenhada para o máximo de interação e performance.
 
-## 🛠️ Tecnologias Utilizadas
+- 📊 **Dashboard Pessoal**: Seu centro de comando. Acompanhe sua carteira de `EcoS` (moeda virtual), nível atual, progresso para o próximo rank e missões ativas.
+- 📰 **Eco'S FEED+**: Uma timeline interativa com notícias do mundo verde. Ganhe conhecimento e engaje (curta, ame ou envie ideias nos posts).
+- 🚨 **Patrulha Ativa**: Encontrou lixo descartado irregularmente? Um foco de queimada? Tire uma foto e poste as evidências em tempo real com localização.
+- 🤖 **Chatbot Inteligente**: Um assistente virtual ecológico (IA) para tirar todas as suas dúvidas sobre reciclagem e sustentabilidade diária.
+- 🎮 **Arena de Desafios**: Um espaço com minigames e quizzes educacionais focados na vida na Terra.
+- 🎯 **Eventos e Missões Sazonais**: Ganhe _Boosts_ de XP ao concluir desafios práticos temporários.
 
-O projeto foi construído com foco em performance e interface premium, utilizando o seguinte ecossistema:
-
-- **React 18**
-- **TypeScript** (Tipagem estática e segurança)
-- **Vite** (Ferramenta de build super rápida)
-- **Tailwind CSS** (Estilização de alta performance e design responsivo)
-- **Framer Motion** (Animações fluidas, dinâmicas e micro-interações)
-- **Shadcn/UI & Radix UI** (Componentes de interface acessíveis e customizáveis)
-- **Supabase** (Backend as a Service - Autenticação, Banco de Dados PostgreSQL e Storage)
-- **React Router Dom** (Roteamento da aplicação)
-- **React Query** (Gerenciamento de cache e estado de requisições)
-- **Lucide React** (Biblioteca de ícones)
+---
 
 ## 🎮 Sistema de Gamificação
 
-A plataforma foi projetada para incentivar boas ações através de um sistema de evolução do usuário:
-- **EcoS**: Moeda virtual ganha ao realizar ações sustentáveis ou interagir na plataforma. Utilizada para ações premium, como publicar notícias (-50 EcoS).
-- **XP e Níveis**: A participação na comunidade rende XP. Ao acumular XP, o usuário sobe de nível e alcança novos ranks, destacando seu nível de "Guardião da Natureza" no dashboard.
+Para manter a comunidade ativa, implementamos recompensas diretas:
 
-## ⚙️ Como executar o projeto localmente
-
-### Pré-requisitos
-- Node.js (versão 18 ou superior recomendada)
-- npm ou yarn
-
-### Passo a passo
-
-1. **Clone o repositório**
-```sh
-git clone https://github.com/seu-usuario/Ecos-Projeto-Integrador.git
-```
-
-2. **Acesse o diretório do projeto**
-```sh
-cd Ecos-Projeto-Integrador
-```
-
-3. **Instale as dependências**
-```sh
-npm install
-# ou
-yarn install
-```
-
-4. **Configuração de Variáveis de Ambiente**
-Crie um arquivo `.env` na raiz do projeto contendo as chaves de conexão do **Supabase**:
-```env
-VITE_SUPABASE_URL=sua_url_do_supabase
-VITE_SUPABASE_ANON_KEY=sua_anon_key_do_supabase
-```
-*(Nota: Certifique-se de configurar as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments` e `reports`)*
-
-5. **Inicie o servidor de desenvolvimento**
-```sh
-npm run dev
-# ou
-yarn dev
-```
-
-6. Acesse o sistema através do navegador na porta fornecida (geralmente `http://localhost:8080` ou `http://localhost:5173`).
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para melhorar o projeto, siga os passos:
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/IncrivelFeature`)
-3. Faça o Commit de suas mudanças (`git commit -m 'feat: Add some IncrivelFeature'`)
-4. Faça o Push para a Branch (`git push origin feature/IncrivelFeature`)
-5. Abra um Pull Request
+| Recompensa              | Como Funciona                                                                                                                  |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| 🟢 **EcoS**             | A moeda do sistema. Você a adquire engajando-se na plataforma e pode gastá-la para publicar suas próprias notícias (-50 EcoS). |
+| ⚡ **XP (Experiência)** | Ganha ao completar missões. Serve para você subir de nível de forma vitalícia.                                                 |
+| 🏆 **Sistema de Ranks** | Seu status reflete sua jornada. Comece como `Semente Curiosa 🌱` e evolua até se tornar uma `Lenda Viva da Terra 🌍✨`.        |
 
 ---
-*Projeto Integrador - Desenvolvido com 💚 focando na sustentabilidade do nosso planeta.*
+
+## 🛠️ Tecnologias Utilizadas
+
+A stack foi cuidadosamente escolhida para fornecer uma interface **Premium**, responsiva e veloz:
+
+### Front-end
+
+- **[React 18](https://react.dev/)** + **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática e componentização moderna.
+- **[Vite](https://vitejs.dev/)**: Para um ambiente de desenvolvimento ultra rápido.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Construção de um design system complexo e responsivo via classes utilitárias.
+- **[Framer Motion](https://www.framer.com/motion/)**: Micro-interações, efeitos de hover avançados e animações de transição de páginas.
+- **[Shadcn/UI](https://ui.shadcn.com/)** & **Radix UI**: Componentes robustos e acessíveis de alta qualidade.
+- **[Lucide React](https://lucide.dev/)**: Ícones minimalistas e elegantes.
+
+### Back-end & Infraestrutura
+
+- **[Supabase](https://supabase.com/)**: O coração dos dados e autenticação.
+  - Banco de Dados (PostgreSQL) robusto e em tempo real.
+  - Storage para hospedagem de fotos da Patrulha Ativa e imagens de Notícias.
+
+---
+
+## ⚙️ Como Começar
+
+Siga os passos abaixo para rodar o projeto localmente em sua máquina.
+
+### Pré-requisitos
+
+- Node.js (v18.x ou superior)
+- npm, yarn ou bun
+
+### Instalação
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/seu-usuario/Ecos-Projeto-Integrador.git
+   ```
+2. Entre no diretório
+   ```sh
+   cd Ecos-Projeto-Integrador
+   ```
+3. Instale os pacotes necessários
+   ```sh
+   npm install
+   ```
+4. **Variáveis de Ambiente**: Crie um arquivo `.env` na raiz e preencha com as suas credenciais do Supabase:
+
+   ```env
+   VITE_SUPABASE_URL=https://sua-url-aqui.supabase.co
+   VITE_SUPABASE_ANON_KEY=sua-anon-key-aqui
+   ```
+
+   _(Nota: O projeto exige as tabelas no Supabase: `profiles`, `games`, `newsfeed`, `reactions`, `newscomments`, `reports`)_
+
+5. Rode a aplicação
+
+   ```sh
+   npm run dev
+   ```
+
+6. Abra [http://localhost:5173](http://localhost:5173) no seu navegador.
+
+---
+
+## 🤝 Como Contribuir
+
+Toda e qualquer ajuda é fundamental para evoluirmos este ecossistema!
+
+1. Faça um **Fork** do projeto
+2. Crie uma **Branch** para sua Feature (`git checkout -b feature/NovaFeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Faça o **Commit** (`git commit -m 'feat: adicionando NovaFeatureIncrivel'`)
+5. Faça o **Push** para a branch (`git push origin feature/NovaFeatureIncrivel`)
+6. Abra um **Pull Request**
+
+---
+
+## 📝 Licença
+
+Este projeto é desenvolvido para fins educacionais (Projeto Integrador). Licença MIT aplicável para contribuições open-source.
+
+---
+
+<div align="center">
+  <br />
+  <p>Feito com 💚 pela equipe do Projeto Integrador para um mundo mais sustentável.</p>
+</div>
